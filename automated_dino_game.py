@@ -15,7 +15,7 @@ while True:
 
     if scr_color[0]==255:
         if x1[0] != 255 or x2[0] != 255 or x3[0] != 255 or x4[0] != 255 or y1[0] != 255 or y2[0] != 255 or y3[0] != 255 or y4[0] != 255:
-            #if true it means that there is an obj hence bkg not white
+            # if true it means that there is an obj hence bkg not white
             pyautogui.press('up')
             time.sleep(0.00001)
     else:
